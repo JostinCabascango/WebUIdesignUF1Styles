@@ -1,0 +1,11 @@
+/* EX 0 -> GIRAR Y AMPLIAR TAMAÑO*/
+div:hover {
+    transform: rotate(-90deg);
+    width: max-content;
+}
+
+/* EX 1 -> ITEMS EN VERTICAL */
+.col-rev {
+    display: flex;
+    flex-direction: column;
+}
