@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Asegura que la sección ocupe toda la altura de la vista */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas si se agregan más elementos */
+    gap: 1rem;
+}
+
+div {
+    padding: 1rem;
+}
+
+section div span {
+    text-align: center;
+}
