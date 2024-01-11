@@ -8,8 +8,7 @@ section div {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 20%;
-    /* 4 elementos por fila */
+    flex-basis: 20%; /* 4 elementos por fila */
     margin: 0.5rem;
 }
 
@@ -19,6 +18,4 @@ section div span {
 
 div:nth-child(5) {
     flex-basis: 100%;
-    /* 4 elementos por fila */
-
 }
