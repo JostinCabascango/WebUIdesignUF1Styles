@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    /* 4 elementos por fila */
+    margin: 0.5rem;
+}
+
+section div span {
+    text-align: center;
+}
+
+div:nth-child(5) {
+    flex-basis: 100%;
+    /* 4 elementos por fila */
+
+}
