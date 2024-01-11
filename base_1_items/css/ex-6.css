@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    margin: 0.5rem;
+
+}
+
+section div span {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    section div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+        margin: 0.5rem;
+    }
+
+
+
+}

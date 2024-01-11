@@ -28,5 +28,9 @@ section div span {
         margin: 0.5rem;
     }
 
+    div:nth-child(5) {
+        flex-basis: 100%;
+    }
+
 
 }
