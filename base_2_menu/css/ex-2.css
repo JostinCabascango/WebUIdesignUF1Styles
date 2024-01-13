@@ -1,0 +1,20 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+nav ul li {
+    width: 100vw;
+}
+
+li:hover {
+    transform: scale(1.5);
+
+}

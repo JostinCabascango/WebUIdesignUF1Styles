@@ -1,0 +1,14 @@
+/* Media query */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 0;
+        Width: 100vw;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+}
