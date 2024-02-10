@@ -1,0 +1,26 @@
+section {
+    grid-template-rows: auto 300px auto;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr 20%;
+}
+
+section {
+    gap: 20px 10px; /* 20px vertical gap, 10px horizontal gap */
+}
+
+/* Solo se aplica aL primer elemento de la clase elem */
+section .elem.el1:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Solo se aplica al segundo elemento de la clase elem */
+section .elem.el2:nth-of-type(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

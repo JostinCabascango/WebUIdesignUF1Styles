@@ -1,0 +1,35 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+section {
+    gap: 20px 10px; /* 20px vertical gap, 10px horizontal gap */
+}
+
+/* Solo se aplica aL primer elemento de la clase elem */
+section .elem.el1:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Solo se aplica al segundo elemento de la clase elem */
+section .elem.el2:nth-of-type(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: span 2;
+
+}
+
+/* El ultimo elemento de la clase elem */
+section .elem.el4:last-child {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /*grid-column: span 4;*/
+}
+
+/* El tercer elemento de la clase elem */
+section div:nth-of-type(3) {
+    grid-row: span 3;
+}
